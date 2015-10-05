@@ -2,447 +2,446 @@
 province italiane in json
 
 ```javascript
-[  
-   {  
-      "name":"Chieti",
-      "code":"CH"
-   },
-   {  
-      "name":"L'Aquila",
-      "code":"AQ"
-   },
-   {  
-      "name":"Pescara",
-      "code":"PE"
-   },
-   {  
-      "name":"Teramo",
-      "code":"TE"
-   },
-   {  
-      "name":"Matera",
-      "code":"MT"
-   },
-   {  
-      "name":"Potenza",
-      "code":"PZ"
-   },
-   {  
-      "name":"Catanzaro",
-      "code":"CZ"
-   },
-   {  
-      "name":"Cosenza",
-      "code":"CS"
-   },
-   {  
-      "name":"Crotone",
-      "code":"KR"
-   },
-   {  
-      "name":"Reggio Calabria",
-      "code":"RC"
-   },
-   {  
-      "name":"Vibo Valentia",
-      "code":"VV"
-   },
-   {  
-      "name":"Avellino",
-      "code":"AV"
-   },
-   {  
-      "name":"Benevento",
-      "code":"BN"
-   },
-   {  
-      "name":"Caserta",
-      "code":"CE"
-   },
-   {  
-      "name":"Napoli",
-      "code":"NA"
-   },
-   {  
-      "name":"Salerno",
-      "code":"SA"
-   },
-   {  
-      "name":"Bologna",
-      "code":"BO"
-   },
-   {  
-      "name":"Ferrara",
-      "code":"FE"
-   },
-   {  
-      "name":"Forlì-Cesena",
-      "code":"FC"
-   },
-   {  
-      "name":"Modena",
-      "code":"MO"
-   },
-   {  
-      "name":"Parma",
-      "code":"PR"
-   },
-   {  
-      "name":"Piacenza",
-      "code":"PC"
-   },
-   {  
-      "name":"Ravenna",
-      "code":"RA"
-   },
-   {  
-      "name":"Reggio Emilia",
-      "code":"RE"
-   },
-   {  
-      "name":"Rimini",
-      "code":"RN"
-   },
-   {  
-      "name":"Gorizia",
-      "code":"GO"
-   },
-   {  
-      "name":"Pordenone",
-      "code":"PN"
-   },
-   {  
-      "name":"Trieste",
-      "code":"TS"
-   },
-   {  
-      "name":"Udine",
-      "code":"UD"
-   },
-   {  
-      "name":"Frosinone",
-      "code":"FR"
-   },
-   {  
-      "name":"Latina",
-      "code":"LT"
-   },
-   {  
-      "name":"Rieti",
-      "code":"RI"
-   },
-   {  
-      "name":"Roma",
-      "code":"RM"
-   },
-   {  
-      "name":"Viterbo",
-      "code":"VT"
-   },
-   {  
-      "name":"Genova",
-      "code":"GE"
-   },
-   {  
-      "name":"Imperia",
-      "code":"IM"
-   },
-   {  
-      "name":"La Spezia",
-      "code":"SP"
-   },
-   {  
-      "name":"Savona",
-      "code":"SV"
-   },
-   {  
-      "name":"Bergamo",
-      "code":"BG"
-   },
-   {  
-      "name":"Brescia",
-      "code":"BS"
-   },
-   {  
-      "name":"Como",
-      "code":"CO"
-   },
-   {  
-      "name":"Cremona",
-      "code":"CR"
-   },
-   {  
-      "name":"Lecco",
-      "code":"LC"
-   },
-   {  
-      "name":"Lodi",
-      "code":"LO"
-   },
-   {  
-      "name":"Mantova",
-      "code":"MN"
-   },
-   {  
-      "name":"Milano",
-      "code":"MI"
-   },
-   {  
-      "name":"Monza e Brianza",
-      "code":"MB"
-   },
-   {  
-      "name":"Pavia",
-      "code":"PV"
-   },
-   {  
-      "name":"Sondrio",
-      "code":"SO"
-   },
-   {  
-      "name":"Varese",
-      "code":"VA"
-   },
-   {  
-      "name":"Ancona",
-      "code":"AN"
-   },
-   {  
-      "name":"Ascoli Piceno",
-      "code":"AP"
-   },
-   {  
-      "name":"Fermo",
-      "code":"FM"
-   },
-   {  
-      "name":"Macerata",
-      "code":"MC"
-   },
-   {  
-      "name":"Pesaro e Urbino",
-      "code":"PU"
-   },
-   {  
-      "name":"Campobasso",
-      "code":"CB"
-   },
-   {  
-      "name":"Isernia",
-      "code":"IS"
-   },
-   {  
-      "name":"Alessandria",
-      "code":"AL"
-   },
-   {  
-      "name":"Asti",
-      "code":"AT"
-   },
-   {  
-      "name":"Biella",
-      "code":"BI"
-   },
-   {  
-      "name":"Cuneo",
-      "code":"CN"
-   },
-   {  
-      "name":"Novara",
-      "code":"NO"
-   },
-   {  
-      "name":"Torino",
-      "code":"TO"
-   },
-   {  
-      "name":"Verbano Cusio Ossola",
-      "code":"VB"
-   },
-   {  
-      "name":"Vercelli",
-      "code":"VC"
-   },
-   {  
-      "name":"Bari",
-      "code":"BA"
-   },
-   {  
-      "name":"Barletta-Andria-Trani",
-      "code":"BT"
-   },
-   {  
-      "name":"Brindisi",
-      "code":"BR"
-   },
-   {  
-      "name":"Lecce",
-      "code":"LE"
-   },
-   {  
-      "name":"Foggia",
-      "code":"FG"
-   },
-   {  
-      "name":"Taranto",
-      "code":"TA"
-   },
-   {  
-      "name":"Cagliari",
-      "code":"CA"
-   },
-   {  
-      "name":"Carbonia-Iglesias",
-      "code":"CI"
-   },
-   {  
-      "name":"Medio Campidano",
-      "code":"VS"
-   },
-   {  
-      "name":"Nuoro",
-      "code":"NU"
-   },
-   {  
-      "name":"Ogliastra",
-      "code":"OG"
-   },
-   {  
-      "name":"Olbia-Tempio",
-      "code":"OT"
-   },
-   {  
-      "name":"Oristano",
-      "code":"OR"
-   },
-   {  
-      "name":"Sassari",
-      "code":"SS"
-   },
-   {  
-      "name":"Agrigento",
-      "code":"AG"
-   },
-   {  
-      "name":"Caltanissetta",
-      "code":"CL"
-   },
-   {  
-      "name":"Catania",
-      "code":"CT"
-   },
-   {  
-      "name":"Enna",
-      "code":"EN"
-   },
-   {  
-      "name":"Messina",
-      "code":"ME"
-   },
-   {  
-      "name":"Palermo",
-      "code":"PA"
-   },
-   {  
-      "name":"Ragusa",
-      "code":"RG"
-   },
-   {  
-      "name":"Siracusa",
-      "code":"SR"
-   },
-   {  
-      "name":"Trapani",
-      "code":"TP"
-   },
-   {  
-      "name":"Arezzo",
-      "code":"AR"
-   },
-   {  
-      "name":"Firenze",
-      "code":"FI"
-   },
-   {  
-      "name":"Grosseto",
-      "code":"GR"
-   },
-   {  
-      "name":"Livorno",
-      "code":"LI"
-   },
-   {  
-      "name":"Lucca",
-      "code":"LU"
-   },
-   {  
-      "name":"Massa e Carrara",
-      "code":"MS"
-   },
-   {  
-      "name":"Pisa",
-      "code":"PI"
-   },
-   {  
-      "name":"Pistoia",
-      "code":"PT"
-   },
-   {  
-      "name":"Prato",
-      "code":"PO"
-   },
-   {  
-      "name":"Siena",
-      "code":"SI"
-   },
-   {  
-      "name":"Bolzano",
-      "code":"BZ"
-   },
-   {  
-      "name":"Trento",
-      "code":"TN"
-   },
-   {  
-      "name":"Perugia",
-      "code":"PG"
-   },
-   {  
-      "name":"Terni",
-      "code":"TR"
-   },
-   {  
-      "name":"Aosta",
-      "code":"AO"
-   },
-   {  
-      "name":"Belluno",
-      "code":"BL"
-   },
-   {  
-      "name":"Padova",
-      "code":"PD"
-   },
-   {  
-      "name":"Rovigo",
-      "code":"RO"
-   },
-   {  
-      "name":"Treviso",
-      "code":"TV"
-   },
-   {  
-      "name":"Venezia",
-      "code":"VE"
-   },
-   {  
-      "name":"Verona",
-      "code":"VR"
-   },
-   {  
-      "name":"Vicenza",
-      "code":"VI"
-   }
+[
+  {
+    "name": "Agrigento",
+    "code": "AG"
+  },
+  {
+    "name": "Alessandria",
+    "code": "AL"
+  },
+  {
+    "name": "Ancona",
+    "code": "AN"
+  },
+  {
+    "name": "Aosta",
+    "code": "AO"
+  },
+  {
+    "name": "Arezzo",
+    "code": "AR"
+  },
+  {
+    "name": "Ascoli Piceno",
+    "code": "AP"
+  },
+  {
+    "name": "Asti",
+    "code": "AT"
+  },
+  {
+    "name": "Avellino",
+    "code": "AV"
+  },
+  {
+    "name": "Bari",
+    "code": "BA"
+  },
+  {
+    "name": "Barletta-Andria-Trani",
+    "code": "BT"
+  },
+  {
+    "name": "Belluno",
+    "code": "BL"
+  },
+  {
+    "name": "Benevento",
+    "code": "BN"
+  },
+  {
+    "name": "Bergamo",
+    "code": "BG"
+  },
+  {
+    "name": "Biella",
+    "code": "BI"
+  },
+  {
+    "name": "Bologna",
+    "code": "BO"
+  },
+  {
+    "name": "Bolzano",
+    "code": "BZ"
+  },
+  {
+    "name": "Brescia",
+    "code": "BS"
+  },
+  {
+    "name": "Brindisi",
+    "code": "BR"
+  },
+  {
+    "name": "Cagliari",
+    "code": "CA"
+  },
+  {
+    "name": "Caltanissetta",
+    "code": "CL"
+  },
+  {
+    "name": "Campobasso",
+    "code": "CB"
+  },
+  {
+    "name": "Carbonia-Iglesias",
+    "code": "CI"
+  },
+  {
+    "name": "Caserta",
+    "code": "CE"
+  },
+  {
+    "name": "Catania",
+    "code": "CT"
+  },
+  {
+    "name": "Catanzaro",
+    "code": "CZ"
+  },
+  {
+    "name": "Chieti",
+    "code": "CH"
+  },
+  {
+    "name": "Como",
+    "code": "CO"
+  },
+  {
+    "name": "Cosenza",
+    "code": "CS"
+  },
+  {
+    "name": "Cremona",
+    "code": "CR"
+  },
+  {
+    "name": "Crotone",
+    "code": "KR"
+  },
+  {
+    "name": "Cuneo",
+    "code": "CN"
+  },
+  {
+    "name": "Enna",
+    "code": "EN"
+  },
+  {
+    "name": "Fermo",
+    "code": "FM"
+  },
+  {
+    "name": "Ferrara",
+    "code": "FE"
+  },
+  {
+    "name": "Firenze",
+    "code": "FI"
+  },
+  {
+    "name": "Foggia",
+    "code": "FG"
+  },
+  {
+    "name": "Forl\u00ec-Cesena",
+    "code": "FC"
+  },
+  {
+    "name": "Frosinone",
+    "code": "FR"
+  },
+  {
+    "name": "Genova",
+    "code": "GE"
+  },
+  {
+    "name": "Gorizia",
+    "code": "GO"
+  },
+  {
+    "name": "Grosseto",
+    "code": "GR"
+  },
+  {
+    "name": "Imperia",
+    "code": "IM"
+  },
+  {
+    "name": "Isernia",
+    "code": "IS"
+  },
+  {
+    "name": "L'Aquila",
+    "code": "AQ"
+  },
+  {
+    "name": "La Spezia",
+    "code": "SP"
+  },
+  {
+    "name": "Latina",
+    "code": "LT"
+  },
+  {
+    "name": "Lecce",
+    "code": "LE"
+  },
+  {
+    "name": "Lecco",
+    "code": "LC"
+  },
+  {
+    "name": "Livorno",
+    "code": "LI"
+  },
+  {
+    "name": "Lodi",
+    "code": "LO"
+  },
+  {
+    "name": "Lucca",
+    "code": "LU"
+  },
+  {
+    "name": "Macerata",
+    "code": "MC"
+  },
+  {
+    "name": "Mantova",
+    "code": "MN"
+  },
+  {
+    "name": "Massa e Carrara",
+    "code": "MS"
+  },
+  {
+    "name": "Matera",
+    "code": "MT"
+  },
+  {
+    "name": "Medio Campidano",
+    "code": "VS"
+  },
+  {
+    "name": "Messina",
+    "code": "ME"
+  },
+  {
+    "name": "Milano",
+    "code": "MI"
+  },
+  {
+    "name": "Modena",
+    "code": "MO"
+  },
+  {
+    "name": "Monza e Brianza",
+    "code": "MB"
+  },
+  {
+    "name": "Napoli",
+    "code": "NA"
+  },
+  {
+    "name": "Novara",
+    "code": "NO"
+  },
+  {
+    "name": "Nuoro",
+    "code": "NU"
+  },
+  {
+    "name": "Ogliastra",
+    "code": "OG"
+  },
+  {
+    "name": "Olbia-Tempio",
+    "code": "OT"
+  },
+  {
+    "name": "Oristano",
+    "code": "OR"
+  },
+  {
+    "name": "Padova",
+    "code": "PD"
+  },
+  {
+    "name": "Palermo",
+    "code": "PA"
+  },
+  {
+    "name": "Parma",
+    "code": "PR"
+  },
+  {
+    "name": "Pavia",
+    "code": "PV"
+  },
+  {
+    "name": "Perugia",
+    "code": "PG"
+  },
+  {
+    "name": "Pesaro e Urbino",
+    "code": "PU"
+  },
+  {
+    "name": "Pescara",
+    "code": "PE"
+  },
+  {
+    "name": "Piacenza",
+    "code": "PC"
+  },
+  {
+    "name": "Pisa",
+    "code": "PI"
+  },
+  {
+    "name": "Pistoia",
+    "code": "PT"
+  },
+  {
+    "name": "Pordenone",
+    "code": "PN"
+  },
+  {
+    "name": "Potenza",
+    "code": "PZ"
+  },
+  {
+    "name": "Prato",
+    "code": "PO"
+  },
+  {
+    "name": "Ragusa",
+    "code": "RG"
+  },
+  {
+    "name": "Ravenna",
+    "code": "RA"
+  },
+  {
+    "name": "Reggio Calabria",
+    "code": "RC"
+  },
+  {
+    "name": "Reggio Emilia",
+    "code": "RE"
+  },
+  {
+    "name": "Rieti",
+    "code": "RI"
+  },
+  {
+    "name": "Rimini",
+    "code": "RN"
+  },
+  {
+    "name": "Roma",
+    "code": "RM"
+  },
+  {
+    "name": "Rovigo",
+    "code": "RO"
+  },
+  {
+    "name": "Salerno",
+    "code": "SA"
+  },
+  {
+    "name": "Sassari",
+    "code": "SS"
+  },
+  {
+    "name": "Savona",
+    "code": "SV"
+  },
+  {
+    "name": "Siena",
+    "code": "SI"
+  },
+  {
+    "name": "Siracusa",
+    "code": "SR"
+  },
+  {
+    "name": "Sondrio",
+    "code": "SO"
+  },
+  {
+    "name": "Taranto",
+    "code": "TA"
+  },
+  {
+    "name": "Teramo",
+    "code": "TE"
+  },
+  {
+    "name": "Terni",
+    "code": "TR"
+  },
+  {
+    "name": "Torino",
+    "code": "TO"
+  },
+  {
+    "name": "Trapani",
+    "code": "TP"
+  },
+  {
+    "name": "Trento",
+    "code": "TN"
+  },
+  {
+    "name": "Treviso",
+    "code": "TV"
+  },
+  {
+    "name": "Trieste",
+    "code": "TS"
+  },
+  {
+    "name": "Udine",
+    "code": "UD"
+  },
+  {
+    "name": "Varese",
+    "code": "VA"
+  },
+  {
+    "name": "Venezia",
+    "code": "VE"
+  },
+  {
+    "name": "Verbano Cusio Ossola",
+    "code": "VB"
+  },
+  {
+    "name": "Vercelli",
+    "code": "VC"
+  },
+  {
+    "name": "Verona",
+    "code": "VR"
+  },
+  {
+    "name": "Vibo Valentia",
+    "code": "VV"
+  },
+  {
+    "name": "Vicenza",
+    "code": "VI"
+  },
+  {
+    "name": "Viterbo",
+    "code": "VT"
+  }
 ]
-```
 ```
